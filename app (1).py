@@ -163,7 +163,7 @@ def get_gemini_api_key() -> str:
 
 
 def get_model_name() -> str:
-    return os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+    return os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 
 
 def analyze_with_gemini(resume_text: str, target_role: str) -> Dict[str, Any]:
